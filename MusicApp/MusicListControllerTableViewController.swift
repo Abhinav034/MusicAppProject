@@ -65,10 +65,29 @@ class MusicListControllerTableViewController: UITableViewController {
 
     }
   
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        currSong = indexPath.row
-        performSegue(withIdentifier: "segue", sender: self)
+//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        currSong = indexPath.row
+//        performSegue(withIdentifier: "segue", sender: self)
+//    }
+//  
+}
+extension MusicListControllerTableViewController: UISearchBarDelegate {
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+       search = sngList.filter({$0.prefix(searchText.count) == searchText})
+        
+        searching = true
+        tableView.reloadData()
+        
     }
     
-
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        searching = false
+        searchBar.text = ""
+        tableView.reloadData()
+    }
+    
+    
+    
+    
 }
