@@ -36,13 +36,10 @@ class MusicListControllerTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
+  
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
+        
         return songs.count
     }
 
@@ -65,11 +62,11 @@ class MusicListControllerTableViewController: UITableViewController {
 
     }
   
-//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        currSong = indexPath.row
-//        performSegue(withIdentifier: "segue", sender: self)
-//    }
-//  
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        currSong = indexPath.row
+        performSegue(withIdentifier: "segue", sender: self)
+    }
+  
 }
 extension MusicListControllerTableViewController: UISearchBarDelegate {
     
