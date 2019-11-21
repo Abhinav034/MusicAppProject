@@ -20,7 +20,7 @@ class MusicListControllerTableViewController: UITableViewController {
     
     
     
-    var songList = [["Most_Epic_Music_Ever_The_Wolf_And_The_Moon", "Jazz"], ["Sub_Urban_Cradles", "Rock"], ["Zedd_KatyPerry_365", "Pop"],["Losers", "R&b"]]
+    var songList = [["Most_Epic_Music_Ever_The_Wolf_And_The_Moon", "Rock"], ["Sub_Urban_Cradles", "Jazz"], ["Zedd_KatyPerry_365", "Pop"],["Losers", "R&b"]]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,6 +68,10 @@ class MusicListControllerTableViewController: UITableViewController {
     }
     @IBOutlet weak var searchBar: UISearchBar!
     
+    
+    
+   
+    
 }
 extension MusicListControllerTableViewController: UISearchBarDelegate {
     
@@ -89,7 +93,12 @@ extension MusicListControllerTableViewController: UISearchBarDelegate {
         tableView.reloadData()
     }
     
-    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar)
+    {
+        searching = false
+        self.searchBar.endEditing(true)
+    }
+   
     
     
 }

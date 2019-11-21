@@ -17,12 +17,23 @@ class GenreCollectionController: UICollectionViewController {
     }
 
    
-  
+  var genreList = [String]()
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of items
-        return songs.count
+       var totalGenres = 0
+              
+              for song in songs {
+                  
+                  if (!genreList.contains(song.genre)) {
+                      genreList.append(song.genre)
+                      totalGenres = totalGenres + 1
+                  }
+                  
+              }
+              return totalGenres
+              
+          
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

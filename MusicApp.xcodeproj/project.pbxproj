@@ -55,6 +55,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44165625238644E9006A0439 /* Songs  */ = {
+			isa = PBXGroup;
+			children = (
+				4416562323861911006A0439 /* Losers.mp3 */,
+				44F7FBA82385D30B00FC7C18 /* Most_Epic_Music_Ever_The_Wolf_And_The_Moon.mp3 */,
+				44F7FBA62385D30B00FC7C18 /* Sub_Urban_Cradles.mp3 */,
+				44F7FBA72385D30B00FC7C18 /* Zedd_KatyPerry_365.mp3 */,
+			);
+			path = "Songs ";
+			sourceTree = "<group>";
+		};
 		44F7FB802385BE5700FC7C18 = {
 			isa = PBXGroup;
 			children = (
@@ -84,11 +95,8 @@
 				441656212386040E006A0439 /* GenreTableViewController.swift */,
 				44F7FB922385BE5700FC7C18 /* Main.storyboard */,
 				44F7FB952385BE5A00FC7C18 /* Assets.xcassets */,
-				4416562323861911006A0439 /* Losers.mp3 */,
-				44F7FBA82385D30B00FC7C18 /* Most_Epic_Music_Ever_The_Wolf_And_The_Moon.mp3 */,
-				44F7FBA62385D30B00FC7C18 /* Sub_Urban_Cradles.mp3 */,
-				44F7FBA72385D30B00FC7C18 /* Zedd_KatyPerry_365.mp3 */,
 				44F7FB972385BE5A00FC7C18 /* LaunchScreen.storyboard */,
+				44165625238644E9006A0439 /* Songs  */,
 				44F7FB9A2385BE5A00FC7C18 /* Info.plist */,
 			);
 			path = MusicApp;

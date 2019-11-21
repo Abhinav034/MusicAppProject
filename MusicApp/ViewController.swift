@@ -103,8 +103,8 @@ class ViewController: UIViewController {
     @objc func updateSlider(){
         timeBar.value = Float(audioPlayer.currentTime)
         
-                let (ch, cm ,cs) = secondsToHoursMinutesSeconds(seconds: Int(audioPlayer.currentTime))
-                let (th, tm, ts) = secondsToHoursMinutesSeconds(seconds: Int(audioPlayer.duration))
+                let (_, cm ,cs) = secondsToHoursMinutesSeconds(seconds: Int(audioPlayer.currentTime))
+                let (_, tm, ts) = secondsToHoursMinutesSeconds(seconds: Int(audioPlayer.duration))
         
             let cTime = String(cm) + ":" + String(cs)
             let tTime = String(tm) + ":" + String(ts)
@@ -203,9 +203,9 @@ class ViewController: UIViewController {
     @IBAction func SufflePressed(_ sender: UIButton) {
         
         if (!shuffle) {
-                shuffleBtn.setImage(UIImage(named: "shuffleno.png"), for: .normal)
-            } else {
                 shuffleBtn.setImage(UIImage(named: "shuffle.png"), for: .normal)
+            } else {
+                shuffleBtn.setImage(UIImage(named: "shuffleno.png"), for: .normal)
             }
             
             shuffle = !shuffle
