@@ -20,7 +20,7 @@ class MusicListControllerTableViewController: UITableViewController {
     
     
     
-    var songList = [["Most_Epic_Music_Ever_The_Wolf_And_The_Moon", "Jazz"], ["Sub_Urban_Cradles", "Rock"], ["Zedd_KatyPerry_365", "Pop"]]
+    var songList = [["Most_Epic_Music_Ever_The_Wolf_And_The_Moon", "Jazz"], ["Sub_Urban_Cradles", "Rock"], ["Zedd_KatyPerry_365", "Pop"],["Losers", "R&b"]]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -66,11 +66,16 @@ class MusicListControllerTableViewController: UITableViewController {
         currSong = indexPath.row
         performSegue(withIdentifier: "segue", sender: self)
     }
-  
+    @IBOutlet weak var searchBar: UISearchBar!
+    
 }
 extension MusicListControllerTableViewController: UISearchBarDelegate {
     
+    
+    
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        
+        
        search = sngList.filter({$0.prefix(searchText.count) == searchText})
         
         searching = true

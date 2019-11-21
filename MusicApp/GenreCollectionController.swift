@@ -14,10 +14,6 @@ class GenreCollectionController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-       
-        
-
-        
     }
 
    

@@ -218,7 +218,7 @@ class ViewController: UIViewController {
     
     @IBAction func ListButtonPressed(_ sender: UIButton) {
         
-        dismiss(animated: true, completion: nil)
+        navigationController?.popToRootViewController(animated: true)
         
     }
     
