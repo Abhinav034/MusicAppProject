@@ -20,7 +20,7 @@ class MusicListControllerTableViewController: UITableViewController {
     
     
     
-    var songList = [["Most_Epic_Music_Ever_The_Wolf_And_The_Moon", "Rock"], ["Sub_Urban_Cradles", "Jazz"], ["Zedd_KatyPerry_365", "Pop"],["Losers", "R&b"]]
+    var songList = [["Most_Epic_Music_Ever_The_Wolf_And_The_Moon", "Rock"], ["Sub_Urban_Cradles", "Jazz"], ["Zedd_KatyPerry_365", "Jazz"],["Losers", "R&b"]]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,10 +50,12 @@ class MusicListControllerTableViewController: UITableViewController {
         if (searching){
                    if (indexPath.row < search.count){
                        cell.textLabel?.text = search[indexPath.row]
+                    
                        cell.imageView?.image = UIImage(named: "AudioIcon.png")
                    }
                } else {
                    cell.textLabel?.text = songs[indexPath.row].name
+                   cell.detailTextLabel?.text = "unknown artist"
                    cell.imageView?.image = UIImage(named: "AudioIcon.png")
                }
                

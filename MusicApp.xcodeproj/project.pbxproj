@@ -22,6 +22,7 @@
 		44F7FBA92385D30B00FC7C18 /* Sub_Urban_Cradles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44F7FBA62385D30B00FC7C18 /* Sub_Urban_Cradles.mp3 */; };
 		44F7FBAA2385D30B00FC7C18 /* Zedd_KatyPerry_365.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44F7FBA72385D30B00FC7C18 /* Zedd_KatyPerry_365.mp3 */; };
 		44F7FBAB2385D30B00FC7C18 /* Most_Epic_Music_Ever_The_Wolf_And_The_Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44F7FBA82385D30B00FC7C18 /* Most_Epic_Music_Ever_The_Wolf_And_The_Moon.mp3 */; };
+		44FE5D48238795BE00ABE9C7 /* CustomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE5D47238795BE00ABE9C7 /* CustomListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		44F7FBA62385D30B00FC7C18 /* Sub_Urban_Cradles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sub_Urban_Cradles.mp3; sourceTree = "<group>"; };
 		44F7FBA72385D30B00FC7C18 /* Zedd_KatyPerry_365.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Zedd_KatyPerry_365.mp3; sourceTree = "<group>"; };
 		44F7FBA82385D30B00FC7C18 /* Most_Epic_Music_Ever_The_Wolf_And_The_Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Most_Epic_Music_Ever_The_Wolf_And_The_Moon.mp3; sourceTree = "<group>"; };
+		44FE5D47238795BE00ABE9C7 /* CustomListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				44F7FB972385BE5A00FC7C18 /* LaunchScreen.storyboard */,
 				44165625238644E9006A0439 /* Songs  */,
 				44F7FB9A2385BE5A00FC7C18 /* Info.plist */,
+				44FE5D47238795BE00ABE9C7 /* CustomListViewController.swift */,
 			);
 			path = MusicApp;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				44F7FB912385BE5700FC7C18 /* ViewController.swift in Sources */,
 				441656222386040E006A0439 /* GenreTableViewController.swift in Sources */,
 				446E3DB72385F6660038691B /* GenreCollectionController.swift in Sources */,
+				44FE5D48238795BE00ABE9C7 /* CustomListViewController.swift in Sources */,
 				44F7FB8D2385BE5700FC7C18 /* AppDelegate.swift in Sources */,
 				446E3DB92385F7B10038691B /* CollectionViewCell.swift in Sources */,
 				44F7FB8F2385BE5700FC7C18 /* SceneDelegate.swift in Sources */,

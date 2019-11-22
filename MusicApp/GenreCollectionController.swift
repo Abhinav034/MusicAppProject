@@ -13,7 +13,7 @@ class GenreCollectionController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+//        collectionView.sizeToFit()
     }
 
    
@@ -38,13 +38,12 @@ class GenreCollectionController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
-    
-        cell.viewname.text = songs[indexPath.row].genre
+        cell.viewname.text = genreList[indexPath.row]
         return cell
     }
 
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        selectedGener = songs[indexPath.row].genre
+        selectedGener = genreList[indexPath.row]
         performSegue(withIdentifier: "segue", sender: self)
         
         
