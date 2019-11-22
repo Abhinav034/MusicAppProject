@@ -27,7 +27,7 @@ class GenreCollectionController: UICollectionViewController {
                   
                   if (!genreList.contains(song.genre)) {
                       genreList.append(song.genre)
-                      totalGenres = totalGenres + 1
+                      totalGenres += 1
                   }
                   
               }
@@ -39,6 +39,7 @@ class GenreCollectionController: UICollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
         cell.viewname.text = genreList[indexPath.row]
+        
         return cell
     }
 

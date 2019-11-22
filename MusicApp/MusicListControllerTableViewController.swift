@@ -20,7 +20,7 @@ class MusicListControllerTableViewController: UITableViewController {
     
     
     
-    var songList = [["Most_Epic_Music_Ever_The_Wolf_And_The_Moon", "Rock"], ["Sub_Urban_Cradles", "Jazz"], ["Zedd_KatyPerry_365", "Jazz"],["Losers", "R&b"]]
+    var songList = [["Most_Epic_Music_Ever_The_Wolf_And_The_Moon", "Pop"], ["Sub_Urban_Cradles", "Jazz"], ["Zedd_KatyPerry_365", "Pop"],["Losers", "R&b"],["The Weeknd - I Feel It Coming ft. Daft Punk (1)" , "R&b"]]
 
     override func viewDidLoad() {
         super.viewDidLoad()
