@@ -69,7 +69,7 @@ class CustomListTableViewController: UITableViewController {
         
     }
     override func viewWillAppear(_ animated: Bool) {
-        alert()
+        
     }
     
     // MARK: - Table view data source

@@ -13,6 +13,8 @@ var currSong = 0
 
 class MusicListControllerTableViewController: UITableViewController {
     
+   
+    
     
     var search = [String]()
     var searching = false
@@ -30,6 +32,7 @@ class MusicListControllerTableViewController: UITableViewController {
             songs.append(Song(songNumber : i, name : song[0], genre: song[1]))
             sngList.append(song[0])
             i = i + 1
+            
         }
         
     }
@@ -39,8 +42,12 @@ class MusicListControllerTableViewController: UITableViewController {
   
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        return songs.count
+        if searching{
+            return  search.count
+        }
+        else{
+            return songs.count
+        }
     }
 
    
@@ -57,6 +64,7 @@ class MusicListControllerTableViewController: UITableViewController {
                    cell.textLabel?.text = songs[indexPath.row].name
                    cell.detailTextLabel?.text = "unknown artist"
                    cell.imageView?.image = UIImage(named: "AudioIcon.png")
+            
                }
                
                
@@ -65,16 +73,22 @@ class MusicListControllerTableViewController: UITableViewController {
     }
   
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
         currSong = indexPath.row
         performSegue(withIdentifier: "segue", sender: self)
     }
+    
+    
+    
+    
+    
+    
     @IBOutlet weak var searchBar: UISearchBar!
-    
-    
-    
    
-    
 }
+
+
+
 extension MusicListControllerTableViewController: UISearchBarDelegate {
     
     
@@ -82,18 +96,19 @@ extension MusicListControllerTableViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         
         
-       search = sngList.filter({$0.prefix(searchText.count) == searchText})
+        search = sngList.filter({$0.lowercased().prefix(searchText.count) == searchText.lowercased()})
         
         searching = true
-        tableView.reloadData()
+        self.tableView.reloadData()
         
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         searching = false
         searchBar.text = ""
-        tableView.reloadData()
+        self.tableView.reloadData()
     }
+    
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar)
     {
