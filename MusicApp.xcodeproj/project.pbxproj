@@ -12,8 +12,9 @@
 		446E3DB72385F6660038691B /* GenreCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E3DB62385F6660038691B /* GenreCollectionController.swift */; };
 		446E3DB92385F7B10038691B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E3DB82385F7B10038691B /* CollectionViewCell.swift */; };
 		44786DC123909500000E816A /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44786DC023909500000E816A /* FavouriteViewController.swift */; };
-		44790B9823884F5E00DC43F8 /* CustomListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44790B9723884F5E00DC43F8 /* CustomListTableViewController.swift */; };
 		44790B9A23885A6200DC43F8 /* The Weeknd - I Feel It Coming ft. Daft Punk (1).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44790B9923885A6200DC43F8 /* The Weeknd - I Feel It Coming ft. Daft Punk (1).mp3 */; };
+		44BD98DA2390B1CD00C4383B /* The Weeknd-I Can't Feel My Face.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44BD98D92390B1CD00C4383B /* The Weeknd-I Can't Feel My Face.mp3 */; };
+		44BD98DC2390B27B00C4383B /* Patiala_Peg-Diljit_Dosanjh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44BD98DB2390B27B00C4383B /* Patiala_Peg-Diljit_Dosanjh.mp3 */; };
 		44F7FB8D2385BE5700FC7C18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F7FB8C2385BE5700FC7C18 /* AppDelegate.swift */; };
 		44F7FB8F2385BE5700FC7C18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F7FB8E2385BE5700FC7C18 /* SceneDelegate.swift */; };
 		44F7FB912385BE5700FC7C18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F7FB902385BE5700FC7C18 /* ViewController.swift */; };
@@ -33,8 +34,9 @@
 		446E3DB62385F6660038691B /* GenreCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreCollectionController.swift; sourceTree = "<group>"; };
 		446E3DB82385F7B10038691B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		44786DC023909500000E816A /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
-		44790B9723884F5E00DC43F8 /* CustomListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListTableViewController.swift; sourceTree = "<group>"; };
 		44790B9923885A6200DC43F8 /* The Weeknd - I Feel It Coming ft. Daft Punk (1).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Weeknd - I Feel It Coming ft. Daft Punk (1).mp3"; sourceTree = "<group>"; };
+		44BD98D92390B1CD00C4383B /* The Weeknd-I Can't Feel My Face.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Weeknd-I Can't Feel My Face.mp3"; sourceTree = "<group>"; };
+		44BD98DB2390B27B00C4383B /* Patiala_Peg-Diljit_Dosanjh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Patiala_Peg-Diljit_Dosanjh.mp3"; sourceTree = "<group>"; };
 		44F7FB892385BE5700FC7C18 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F7FB8C2385BE5700FC7C18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44F7FB8E2385BE5700FC7C18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,8 @@
 				44F7FBA82385D30B00FC7C18 /* Most_Epic_Music_Ever_The_Wolf_And_The_Moon.mp3 */,
 				44F7FBA62385D30B00FC7C18 /* Sub_Urban_Cradles.mp3 */,
 				44F7FBA72385D30B00FC7C18 /* Zedd_KatyPerry_365.mp3 */,
+				44BD98DB2390B27B00C4383B /* Patiala_Peg-Diljit_Dosanjh.mp3 */,
+				44BD98D92390B1CD00C4383B /* The Weeknd-I Can't Feel My Face.mp3 */,
 			);
 			path = "Songs ";
 			sourceTree = "<group>";
@@ -101,7 +105,6 @@
 				446E3DB62385F6660038691B /* GenreCollectionController.swift */,
 				446E3DB82385F7B10038691B /* CollectionViewCell.swift */,
 				441656212386040E006A0439 /* GenreTableViewController.swift */,
-				44790B9723884F5E00DC43F8 /* CustomListTableViewController.swift */,
 				44F7FB922385BE5700FC7C18 /* Main.storyboard */,
 				44F7FB952385BE5A00FC7C18 /* Assets.xcassets */,
 				44F7FB972385BE5A00FC7C18 /* LaunchScreen.storyboard */,
@@ -169,12 +172,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44BD98DA2390B1CD00C4383B /* The Weeknd-I Can't Feel My Face.mp3 in Resources */,
 				44F7FB992385BE5A00FC7C18 /* LaunchScreen.storyboard in Resources */,
 				44F7FBA92385D30B00FC7C18 /* Sub_Urban_Cradles.mp3 in Resources */,
 				44F7FBAA2385D30B00FC7C18 /* Zedd_KatyPerry_365.mp3 in Resources */,
 				44790B9A23885A6200DC43F8 /* The Weeknd - I Feel It Coming ft. Daft Punk (1).mp3 in Resources */,
 				44F7FBAB2385D30B00FC7C18 /* Most_Epic_Music_Ever_The_Wolf_And_The_Moon.mp3 in Resources */,
 				4416562423861911006A0439 /* Losers.mp3 in Resources */,
+				44BD98DC2390B27B00C4383B /* Patiala_Peg-Diljit_Dosanjh.mp3 in Resources */,
 				44F7FB962385BE5A00FC7C18 /* Assets.xcassets in Resources */,
 				44F7FB942385BE5700FC7C18 /* Main.storyboard in Resources */,
 			);
@@ -193,7 +198,6 @@
 				44F7FB8D2385BE5700FC7C18 /* AppDelegate.swift in Sources */,
 				446E3DB92385F7B10038691B /* CollectionViewCell.swift in Sources */,
 				44F7FB8F2385BE5700FC7C18 /* SceneDelegate.swift in Sources */,
-				44790B9823884F5E00DC43F8 /* CustomListTableViewController.swift in Sources */,
 				44F7FBA32385D0ED00FC7C18 /* MusicListControllerTableViewController.swift in Sources */,
 				44786DC123909500000E816A /* FavouriteViewController.swift in Sources */,
 				44F7FBA52385D13300FC7C18 /* Song.swift in Sources */,

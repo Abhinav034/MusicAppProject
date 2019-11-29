@@ -218,7 +218,7 @@ class ViewController: UIViewController {
     
     @IBAction func ListButtonPressed(_ sender: UIButton) {
         
-        navigationController?.popToRootViewController(animated: true)
+//        navigationController?.popToRootViewController(animated: true)
         
     }
     
@@ -233,11 +233,7 @@ class ViewController: UIViewController {
     
 
 
-    @IBAction func GenrePressed(_ sender: UINavigationItem) {
-        
-        
-        
-    }
+    
 }
 
 

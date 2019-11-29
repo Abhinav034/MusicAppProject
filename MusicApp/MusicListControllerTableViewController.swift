@@ -22,7 +22,7 @@ class MusicListControllerTableViewController: UITableViewController {
     
     
     
-    var songList = [["Most_Epic_Music_Ever_The_Wolf_And_The_Moon", "Pop"], ["Sub_Urban_Cradles", "Jazz"], ["Zedd_KatyPerry_365", "Pop"],["Losers", "R&b"],["The Weeknd - I Feel It Coming ft. Daft Punk (1)" , "R&b"]]
+    var songList = [["Most_Epic_Music_Ever_The_Wolf_And_The_Moon", "Pop"], ["Sub_Urban_Cradles", "Rock"], ["Zedd_KatyPerry_365", "Jazz"],["Losers", "R&b"],["The Weeknd - I Feel It Coming ft. Daft Punk (1)" , "Hip-Hop"],["The Weeknd-I Can't Feel My Face", "English"],["Patiala_Peg-Diljit_Dosanjh", "Punjabi"]]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,8 +53,8 @@ class MusicListControllerTableViewController: UITableViewController {
    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-
-        if (searching){
+            
+        if searching {
                    if (indexPath.row < search.count){
                        cell.textLabel?.text = search[indexPath.row]
                     
