@@ -21,6 +21,9 @@ class GenreCollectionController: UICollectionViewController {
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
+//        filtering out the genres
+        
        var totalGenres = 0
               
               for song in songs {

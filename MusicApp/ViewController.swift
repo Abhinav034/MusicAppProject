@@ -48,7 +48,7 @@ class ViewController: UIViewController {
         let songName = songs[currSong].name
         songNameLabel.text = songName
         
-        
+//        getting path for the songs
         let sound = Bundle.main.path(forResource: songName, ofType: "mp3")
         
         do{

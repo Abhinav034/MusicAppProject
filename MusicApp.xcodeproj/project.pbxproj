@@ -13,6 +13,10 @@
 		446E3DB92385F7B10038691B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E3DB82385F7B10038691B /* CollectionViewCell.swift */; };
 		44786DC123909500000E816A /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44786DC023909500000E816A /* FavouriteViewController.swift */; };
 		44790B9A23885A6200DC43F8 /* The Weeknd - I Feel It Coming ft. Daft Punk (1).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44790B9923885A6200DC43F8 /* The Weeknd - I Feel It Coming ft. Daft Punk (1).mp3 */; };
+		448966AC23918A390006CD15 /* 101-maroon_5-best_4_u-jrp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 448966A823918A380006CD15 /* 101-maroon_5-best_4_u-jrp.mp3 */; };
+		448966AD23918A390006CD15 /* JayZ & Linkin Park - NumbEncore - (HD).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 448966A923918A390006CD15 /* JayZ & Linkin Park - NumbEncore - (HD).mp3 */; };
+		448966AE23918A390006CD15 /* triumph-fight-the-good-fight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 448966AA23918A390006CD15 /* triumph-fight-the-good-fight.mp3 */; };
+		448966AF23918A390006CD15 /* 001. Drake feat. Wizkid & Kyla - One Dance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 448966AB23918A390006CD15 /* 001. Drake feat. Wizkid & Kyla - One Dance.mp3 */; };
 		44BD98DA2390B1CD00C4383B /* The Weeknd-I Can't Feel My Face.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44BD98D92390B1CD00C4383B /* The Weeknd-I Can't Feel My Face.mp3 */; };
 		44BD98DC2390B27B00C4383B /* Patiala_Peg-Diljit_Dosanjh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44BD98DB2390B27B00C4383B /* Patiala_Peg-Diljit_Dosanjh.mp3 */; };
 		44F7FB8D2385BE5700FC7C18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F7FB8C2385BE5700FC7C18 /* AppDelegate.swift */; };
@@ -35,6 +39,10 @@
 		446E3DB82385F7B10038691B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		44786DC023909500000E816A /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 		44790B9923885A6200DC43F8 /* The Weeknd - I Feel It Coming ft. Daft Punk (1).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Weeknd - I Feel It Coming ft. Daft Punk (1).mp3"; sourceTree = "<group>"; };
+		448966A823918A380006CD15 /* 101-maroon_5-best_4_u-jrp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "101-maroon_5-best_4_u-jrp.mp3"; sourceTree = "<group>"; };
+		448966A923918A390006CD15 /* JayZ & Linkin Park - NumbEncore - (HD).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "JayZ & Linkin Park - NumbEncore - (HD).mp3"; sourceTree = "<group>"; };
+		448966AA23918A390006CD15 /* triumph-fight-the-good-fight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "triumph-fight-the-good-fight.mp3"; sourceTree = "<group>"; };
+		448966AB23918A390006CD15 /* 001. Drake feat. Wizkid & Kyla - One Dance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "001. Drake feat. Wizkid & Kyla - One Dance.mp3"; sourceTree = "<group>"; };
 		44BD98D92390B1CD00C4383B /* The Weeknd-I Can't Feel My Face.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Weeknd-I Can't Feel My Face.mp3"; sourceTree = "<group>"; };
 		44BD98DB2390B27B00C4383B /* Patiala_Peg-Diljit_Dosanjh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Patiala_Peg-Diljit_Dosanjh.mp3"; sourceTree = "<group>"; };
 		44F7FB892385BE5700FC7C18 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +76,10 @@
 			children = (
 				4416562323861911006A0439 /* Losers.mp3 */,
 				44790B9923885A6200DC43F8 /* The Weeknd - I Feel It Coming ft. Daft Punk (1).mp3 */,
+				448966AB23918A390006CD15 /* 001. Drake feat. Wizkid & Kyla - One Dance.mp3 */,
+				448966A823918A380006CD15 /* 101-maroon_5-best_4_u-jrp.mp3 */,
+				448966A923918A390006CD15 /* JayZ & Linkin Park - NumbEncore - (HD).mp3 */,
+				448966AA23918A390006CD15 /* triumph-fight-the-good-fight.mp3 */,
 				44F7FBA82385D30B00FC7C18 /* Most_Epic_Music_Ever_The_Wolf_And_The_Moon.mp3 */,
 				44F7FBA62385D30B00FC7C18 /* Sub_Urban_Cradles.mp3 */,
 				44F7FBA72385D30B00FC7C18 /* Zedd_KatyPerry_365.mp3 */,
@@ -172,12 +184,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				448966AD23918A390006CD15 /* JayZ & Linkin Park - NumbEncore - (HD).mp3 in Resources */,
+				448966AC23918A390006CD15 /* 101-maroon_5-best_4_u-jrp.mp3 in Resources */,
 				44BD98DA2390B1CD00C4383B /* The Weeknd-I Can't Feel My Face.mp3 in Resources */,
+				448966AF23918A390006CD15 /* 001. Drake feat. Wizkid & Kyla - One Dance.mp3 in Resources */,
 				44F7FB992385BE5A00FC7C18 /* LaunchScreen.storyboard in Resources */,
 				44F7FBA92385D30B00FC7C18 /* Sub_Urban_Cradles.mp3 in Resources */,
 				44F7FBAA2385D30B00FC7C18 /* Zedd_KatyPerry_365.mp3 in Resources */,
 				44790B9A23885A6200DC43F8 /* The Weeknd - I Feel It Coming ft. Daft Punk (1).mp3 in Resources */,
 				44F7FBAB2385D30B00FC7C18 /* Most_Epic_Music_Ever_The_Wolf_And_The_Moon.mp3 in Resources */,
+				448966AE23918A390006CD15 /* triumph-fight-the-good-fight.mp3 in Resources */,
 				4416562423861911006A0439 /* Losers.mp3 in Resources */,
 				44BD98DC2390B27B00C4383B /* Patiala_Peg-Diljit_Dosanjh.mp3 in Resources */,
 				44F7FB962385BE5A00FC7C18 /* Assets.xcassets in Resources */,
